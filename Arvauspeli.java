@@ -12,11 +12,9 @@ public class Arvauspeli {
     }
 }
 
-class Kysely
-{
+class Kysely {
 
-    void begin()
-    {
+    void begin() {
         System.out.println("Mikäs sun nimes on?");
         Scanner lukija = new Scanner(System.in);
         String kayttajaNimi= lukija.nextLine();
